@@ -186,3 +186,12 @@ button{
 #igoogle:hover{
     background-image:linear-gradient(to left, #34A853, #2b8342) ;
 }
+
+#but1{
+    padding: 1rem 3rem;
+    background-color: #658ea8;
+    text-transform: uppercase;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+}
