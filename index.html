@@ -14,13 +14,13 @@
         <h1>Login</h1>
         <form action="#" method="post" autocomplete="off">
             <div id="input-login" class="input">
-                <label for="inome"><i class="fa-solid fa-user"></i></label>
-                <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required maxlength="15">
+                <label for="inome"><i class="fa-solid fa-user" id="icon-login"></i></label>
+                <input type="text" name="nome" id="inome" placeholder=" nome do usuário" required maxlength="15" autofocus>
                 <div class="linha"></div>
             </div>
             <div id="input-password" class="input">
                 <label for="isenha"><i class="fa-solid fa-key"></i></label>
-                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required minlength="8">
+                <input type="password" name="senha" id="isenha" placeholder=" sua senha" required minlength="8">
                 <div class="linha"></div>
             </div>
             <input type="submit" value="Login"> <br>
@@ -30,11 +30,23 @@
             <p>Conecte-se usando suas redes sociais</p>
 
             <div class="botoes">
-              <div id="ifacebook"><a href="#" class="botao"><i class="fa-brands fa-facebook-f"></i> Facebook</a></div>
+
+                <div  class="botao">
+                    <a href="" id="ifacebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <button>Facebook</button>
+                    </a>
+                </div>
+
+                <div  class="botao">
+                    <a href="#" id="igoogle">
+                        <i class="fa-brands fa-google"></i>
+                        <button>Google</button>
+                    </a>
+                </div>
+
             </div>
-            <div class="botoes">
-              <div id="igoogle"><a href="#" class="botao"> <i class="fa-brands fa-google"></i> Google</a></div>
-            </div>
+           
         </div>
         
     </main>
