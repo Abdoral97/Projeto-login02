@@ -125,17 +125,15 @@ input[type="submit"]:hover{
     background-image: linear-gradient(to left, var(--cor03), var(--cor02) );
     
 }
-#rede-senha > button {
+a{
     text-decoration: none;
     color: var(--cor03);
     margin-bottom: 0.8rem;
-    padding: 0.2rem 0.6rem;
-    border-radius: 12px;
-    background-color: #bed4f1;
+    
    
     
 }
-#rede-senha > button:hover{
+a:hover{
     color: #026ac5;
 }
 p{
